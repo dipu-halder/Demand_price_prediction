@@ -84,13 +84,4 @@ Browser mein open karo: http://localhost:5173
 4. Dashboard mein results aayenge — demand, charts, feature influence
 5. "Years in Future" bharo → future price forecast
 
----
 
-## Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| "Backend Offline" dikhta hai | `python app.py` run karo pehle |
-| CSV not found error | CSV files `app.py` ke same folder mein rako |
-| npm install fail | Node.js install karo: nodejs.org |
-| Port 5000 busy | `app.py` mein `port=5001` karo, aur `vite.config.js` mein bhi `5001` |
